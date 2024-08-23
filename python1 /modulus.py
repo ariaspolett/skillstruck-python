@@ -24,4 +24,7 @@ ones = int(number%10)
 print(str(ones) + str(tens))
 
 #Challenge - Find the Ten's Place
-#This challenge was uncompleted.
+number = int(input("Enter a number greater than 100: "))
+tenss = (number%100)
+tens = int(tenss / 10)
+print(tens)
