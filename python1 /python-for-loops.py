@@ -18,4 +18,8 @@ for x in range (num1, num2):
 print(var)
 
 #Challenge - Factorial
-#This challenge was uncompleted.
+number = int(input("Enter a number"))
+total = 1
+for x in range(1, number + 1):
+    total = int(total * x)
+print(str(total))
