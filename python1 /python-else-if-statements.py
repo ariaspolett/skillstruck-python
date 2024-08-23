@@ -18,10 +18,36 @@ elif number == number2:
     print("The numbers are the same.")
 
 #Challenge - Smallest of Three Numbers
-#This challenge was uncompleted.
+number = input("Enter a number")
+number2 = input("Enter a number")
+number3 = input("Enter a number")
+
+if number < number2 and number < number3:
+    print(number)
+elif number2 < number and number2 < number3:
+    print(number2)
+elif number3 < number and number3 < number2:
+    print(number3)
+elif number == number2 and number < number3:
+    print(number)
+elif number2 == number3 and number2 < number:
+    print(number2)
+elif number3 == number and number3 < number2:
+    print(number3)
+else:
+   print("zero")
 
 #Challenge - Equal Numbers
-#This challenge was uncompleted.
+number = input("Enter a number")
+number2 = input("Enter a number")
+number3 = input("Enter a number")
+
+if number == number2 and number == number3:
+    print("3")
+elif number == number2 or number == number3 or number2 == number3:
+    print("2")
+else:
+    print("0")
 
 #Challenge - Forest Adventure
 choice = input("which direction should you go?")
@@ -35,10 +61,40 @@ else:
     print("You decided to turn around and go home. You should be glad. You could've met a terrible end.")
 
 #Challenge - Order of Outlier
-#This challenge was uncompleted.
+
+#make sure that only 2 numbers are the same
+number1 = input("Enter a number")
+number2 = input("Enter a  number")
+number3 = input("Enter a number")
+
+if number1 == number2 and number1 != number3:
+    print("3")
+elif number1 == number3 and number1 != number2:
+    print("2")
+elif number2 == number3 and number2 != number1:
+    print("1")
+else: 
+    print("0")
 
 #Challenge - Order the Digits
-#This challenge was uncompleted.
+number1 = int(input("Enter a number"))
+number2 = int(input("Enter a number"))
+number3 = int(input("Enter a number"))
+
+if number1 < number2 and number2 < number3 :
+    print(number1, number2, number3)
+elif number2 < number1 and number1 < number3:
+    print(number2, number1, number3)
+elif number3 < number1 and number1 < number2:
+    print(number3, number1, number2)
+elif number3 < number2 and number2 < number1:
+    print(number3, number2, number1)
+elif number2 < number3 and number3 < number1:
+    print(number2, number3, number1)
+elif number1 < number3 and number3 < number2:
+    print(number1, number3, number2)
+else: 
+    print("nothing")
 
 #Challenge - Days in a Month
 #This challenge was uncompleted.
