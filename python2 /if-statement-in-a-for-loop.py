@@ -1,0 +1,10 @@
+snickers = int(input("How many snickers did you get?"))
+nerds = int(input("How many nerds did you get?"))
+butterfingers = int(input("How many butterfingers did you get?"))
+total = snickers + nerds + butterfingers
+again = str(total)
+snicker = str(snickers)
+nerd = str(nerds)
+butterfinger = str(butterfingers)
+candy_count = ("This year, you got " + snicker + " snickers, " + nerd + " nerds, and " + butterfinger + " butterfingers. The total number of these candies is " + str(total) + " candies.")
+print(candy_count)
