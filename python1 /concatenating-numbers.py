@@ -23,7 +23,16 @@ h_m = "It has been {} hour(s) and {} minute(s) since midnight."
 print(h_m.format(count, count2))
 
 #Challenge - Work Tables
-#This challenge was uncompleted.
+table = int(input("How many employees?"))
+tables= int(table % 2)
+if tables == 0:
+    table2 = int(table/2)
+    minimum = "Minimum number of tables: {}"
+    print(minimum.format(table2))
+elif tables == 1:
+    table3 = int(table/2 + 1)
+    minimums = "Minimum number of tables: {}"
+    print(minimums.format(table3))
 
 #Challenge - Marble Bags
 jas = int(input("Number of bags Jasmine has."))
