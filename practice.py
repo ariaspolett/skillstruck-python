@@ -1,20 +1,19 @@
-options = [.20, .30, .40, .50, .60, .70]
+family = ["Amanda", "Levi", "Nicole", "Lilly"]
 
-choice = int(input("Which number will you pick? 0-5")) 
+mitch = int(input("input an age"))
 
-scratch_off = options[choice]
-print(scratch_off)
-
-price = 29.95
-
-discount = price * scratch_off
-print(discount)
-
-total = price - discount
-print(total)
-
-people = int(input("How many people?"))
-
-per_person =  total/people
-
-print(round(per_person,2))
+if mitch >= 15:
+    family.insert(0, "Mitch")
+    print(family)
+elif 16 < mitch >= 13:
+    family.insert(1, "Mitch")
+    print(family)
+elif 13 < mitch >= 10:
+    family.insert(2, "Mitch")
+    print(family)
+elif 10 < mitch >= 6:
+    family.insert(3, "Mitch")
+    print(family)
+else:
+    family.append(["Mitch"])
+    print(family)
