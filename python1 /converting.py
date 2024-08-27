@@ -8,17 +8,17 @@ peaches = 5
 float_2 = float(peaches)
 print(float_2)
 
-#Challenge - 
+#Challenge - Age in 18 years
 age = int(input("Please input your age."))
 age_18 = (age + 18)
 print(age_18)
 
-#Challenge - 
+#Challenge - Decimal Dilemma
 decimal = float(input("Please enter a decimal number."))
 decimal_2 = int(decimal)
 print(decimal_2)
 
-#Challenge - 
+#Challenge - Name Repeater
 name = input("What is your name?")
 age = int(input("What is your age?"))
 mult = (name * age)
