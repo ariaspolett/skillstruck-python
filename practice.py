@@ -1,11 +1,9 @@
-number = float(input("enter a number w/ a decimal"))
-mod = number%100
-mods = mod%10
-modss = mods%1
-float_to_str = str(modss)
-decimal_find = float_to_str.find(".")
-length_of_decimal = len(float_to_str)
-cut = float_to_str[decimal_find+1:3]
-cuts = int(cut)
-fin = "The first decimal digit is {}"
-print(fin.format(cuts))
+dollars = int(input("how many dollars does 1 cookie cost."))
+cents = int(input("how many cents does 1 cookie cost."))
+cookie = int(input("how many cookies do you want to buy?"))
+dollars_to_cents = dollars*100
+total_cost = dollars_to_cents + cents
+total_money = total_cost/100
+total = total_money * cookie
+message = "The total cost of {} cookies is ${}"
+print(message.format(cookie, total))
