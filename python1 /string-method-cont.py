@@ -10,13 +10,22 @@ enter = str(input("Enter a sentence."))
 print(len(enter.split()))
 
 #Challenge - First and Last
-#This challenge was uncompleted.
+string = input("enter a sentence with many e's")
+first = (string.find("e"))
+last = (string.rfind("e"))
+print(str(first) + "-" + str(last))
 
 #Challenge - String Characcter Selection
-#This challenge was uncompleted.
+string1 = input("enter a word")
+third = string1[2]
+third_last = string1[-3]
+fourth = string1[3]
+selection = third + third_last + fourth
+print(selection)
 
 #Challenge - Second Time
-#This challenge was uncompleted.
+enter = str(input("Enter a sentence with words that have the letter g."))
+print(enter.rfind("g"))
 
 #Challenge - Cut the String
 enter = str(input("Enter a word with even amount of letters."))
@@ -28,7 +37,19 @@ end = second_half + first_half
 print(end)
 
 #Challenge - Remove String Section
-#This challenge was uncompleted.
+string = input("enter a sentence with two instances of j")
+first = int(string.find("j"))
+last = int(string.rfind("j"))
+leng = int(len(string))
+challenge = string[0:first]
+challenges = string[last+1:leng + 1]
+done = challenge + challenges
+print(done)
 
 #Challenge - Reverse String Section
-#This challenge was uncompleted.
+string = input("enter a sentence with at least two j's")
+firstj = int(string.find("j"))
+secondj = int(string.rfind("j"))
+js = string[firstj:secondj +1]
+reverse = js[len(js)::-1]
+print(reverse)
