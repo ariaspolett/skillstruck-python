@@ -1,10 +1,26 @@
-my_list = [int(n) for n in input("Input a list of numbers").split()] 
+number = int(input("enter a number 1-12"))
 
-cash_back = []
-
-for x in my_list:
-	if x >= 5:
-		cash_back_amount = x * .1
-		cash_back.append(round(cash_back_amount,1))
-		
-print(cash_back)
+if number == 1:
+    print("31")
+elif number == 2:
+    print("28")
+elif number == 3:
+    print("31")
+elif number == 4:
+    print("30")
+elif number == 5:
+    print("31")
+elif number == 6:
+    print("30")
+elif number == 7:
+    print("31")
+elif number == 8:
+    print("31")
+elif number == 9:
+    print("30")
+elif number == 10:
+    print("31")
+elif number == 11:
+    print("30")
+elif number == 12:
+    print("31")
