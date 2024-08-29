@@ -1,10 +1,10 @@
-my_list = input().split()
+my_list = [int(n) for n in input("Input a list of numbers").split()] 
 
-center = int(len(my_list)/2)
+cash_back = []
 
-if len(my_list) % 2 == 1 :
-    my_list.pop(center)
-else:
-    my_list.pop(center)
-    my_list.pop(center-1)
-print(my_list)
+for x in my_list:
+	if x >= 5:
+		cash_back_amount = x * .1
+		cash_back.append(round(cash_back_amount,1))
+		
+print(cash_back)
