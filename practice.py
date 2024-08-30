@@ -1,9 +1,6 @@
-year = int(input("enter a year"))
-if year%4 == 0:
-    print("Leap")
-elif year%400 == 0 and year%100 == 0:
-    print("Leap")
-elif year%100 == 0 and year%400 == 1: 
-    print("Common")
-else:
-    print("Common")
+day_number = int(input("enter a number 1-365"))
+weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+start_of_index = 4
+day_of_week_index = (start_of_index + (day_number - 1))%7
+message = "The day of the week is the number {}"
+print(message.format(day_of_week_index))
