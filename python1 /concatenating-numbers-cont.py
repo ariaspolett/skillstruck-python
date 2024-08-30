@@ -44,4 +44,9 @@ message = "The total cost of {} cookies is ${}"
 print(message.format(cookie, total))
 
 #Challenge - What day is it?
-#This challenge was uncompleted.
+day_number = int(input("enter a number 1-365"))
+weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+start_of_index = 4
+day_of_week_index = (start_of_index + (day_number - 1))%7
+message = "The day of the week is the number {}"
+print(message.format(day_of_week_index))
