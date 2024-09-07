@@ -3,11 +3,5 @@
 #trees.pop(remove)
 #print(trees)
 
-choice1 = int(input("What is the first number?"))
-choice2 = int(input("What is the second number?"))
-def my_function(choice1, choice2):
-	if choice1 > choice2:
-		print(choice2)
-	else:
-		print(choice1)
-my_function(choice1,choice2)
+holidays = {"January" : "New Years", "Febuary" : "Valentines", "March" : "love", "May" : "school", "July" : "Fourth", "August" : "birthday", "October" : "halloween", "November" : "grateful", "december" : "gifts", "june" : "mom"}
+print(holidays)
