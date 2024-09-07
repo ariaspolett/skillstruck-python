@@ -1,7 +1,6 @@
-length = 4
-def surface_area():
-    print(length*length*6)
-surface_area()
-def volume():
-    print(length*length*length)
-volume()
+trees = { "aspen" : 75, "pine" : 82, "maple" : 60, "oak" : 65, "willow" : 80, "cottonwood" : 100 }
+
+remove = input("which tree would you like to remvoe?")
+
+trees.pop(remove)
+print(trees)
