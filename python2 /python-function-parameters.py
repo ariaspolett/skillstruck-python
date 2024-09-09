@@ -36,7 +36,17 @@ odd_even(44)
 #This challenge was not completed.
 
 #Challenge - Is it a Leap Year?
-#This challenge was not completed.
+year = int(input("What year?"))
+def leap_year(year):
+	if year % 4 == 0  and year % 100 != 0:
+		print("Leap year!")
+	else:
+		print("Not a leap year.")
+leap_year(year)
 
 #Challenge - Area of a Circle
-#This challenge was not completed.
+radius = int(input("Enter a nnumber for the radius"))
+def area_circle(radius):
+    calculation = 3.14159*radius*radius
+    print(round(calculation, 1))
+area_circle(radius)
