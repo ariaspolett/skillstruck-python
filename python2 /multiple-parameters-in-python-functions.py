@@ -22,3 +22,15 @@ def my_function(choice1, choice2):
 	else:
 		print(choice1)
 my_function(choice1,choice2)
+
+#Challenge - How Mant are Equal Function
+#This challenge was not completed.
+
+#Challenge - Find the Smallest of Five Function
+#This challenge was not completed.
+
+#Challenge -  Spot the Difference Function
+#This challenge was not completed.
+
+#Challenge - What Day is it Tomorrow Function
+#This challenge was not completed.
