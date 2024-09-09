@@ -10,7 +10,7 @@ print(friends)
 friends.pop("Shiloh")
 print(friends)
 
-#Challenge -
+#Challenge - Dictionary of Shapes
 my_shape = input("What shape do you want to add?")
 my_shape_height = int(input("How tall is your shape?"))
 shapes = {
@@ -22,8 +22,14 @@ shapes = {
 shapes[my_shape] = my_shape_height
 print(shapes)
 
-#Challenge - 
+#Challenge - Arborist
 trees = { "aspen" : 75, "pine" : 82, "maple" : 60, "oak" : 65, "willow" : 80, "cottonwood" : 100 }
 remove = input("which tree would you like to remvoe?")
 trees.pop(remove)
 print(trees)
+
+#Challenge - Goals 
+#This challenge was not completed.
+
+#Challenge - Dinosaurs 
+#This challenge was not completed.
