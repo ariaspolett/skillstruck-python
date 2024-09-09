@@ -33,9 +33,10 @@ odd_even(67)
 odd_even(44)
 
 #Challenge - A Party for the letter C
-
+#This challenge was not completed.
 
 #Challenge - Is it a Leap Year?
-
+#This challenge was not completed.
 
 #Challenge - Area of a Circle
+#This challenge was not completed.
