@@ -1,4 +1,4 @@
-trees = { "aspen" : 75, "pine" : 82, "maple" : 60, "oak" : 65, "willow" : 80, "cottonwood" : 100 }
-remove = input("which tree would you like to remvoe?")
-trees.pop(remove)
-print(trees)
+packing = {"shoes": "vans", "socks": "dots", "shirts": "cotton", "pants": "jeans", "pjs": "stripes", "money" : "greed", "mom" : "warmth", "dad" : "warm", "siblings" : "loud", "family" : "good"}
+print(packing)
+packing_list = ["shoes", "socks", "shirts", "pants", "pjs"]
+print(packing_list)
