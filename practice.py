@@ -1,4 +1,13 @@
-packing = {"shoes": "vans", "socks": "dots", "shirts": "cotton", "pants": "jeans", "pjs": "stripes", "money" : "greed", "mom" : "warmth", "dad" : "warm", "siblings" : "loud", "family" : "good"}
-print(packing)
-packing_list = ["shoes", "socks", "shirts", "pants", "pjs"]
-print(packing_list)
+work = {
+    "Monday" : 5,
+    "Tuesday" : 8,
+    "Wednesday" : 6,
+    "Thursday" : 7,
+    "Friday" : 5,
+}
+work["Saturday"] = 5
+work.pop(
+    "Wednesday")
+print(len(work))
+if "Friday" in work:
+    print(work)
