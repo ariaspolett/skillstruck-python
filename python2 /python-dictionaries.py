@@ -16,10 +16,38 @@ packing_list = ["shoes", "socks", "shirts", "pants", "pjs"]
 print(packing_list)
 
 #Challenge - Survival
-#This challenge was not completed.
+knife = int(input("From 1-10, how important is a knife?"))
+fire_starter = int(input("From 1-10, how important is a fire starter?"))
+pot = int(input("From 1-10, how important is a pot?"))
+rope = int(input("From 1-10, how important is a rope?"))
+tarp = int(input("From 1-10, how important is a tarp?"))
+survive = { "knife" : knife, "fire starter": fire_starter, "pot": pot, "rope": rope, "tarp": tarp}
+
+print(survive)
 
 #Challenge - Color Dictionary
-#This challenge was not completed.
+colors = {
+    "red" : 3,
+    "blue" : 4,
+    "orange" : 5,
+    "purple" : 6, 
+    "pink" : 7
+}
+print(colors["orange"])
+print(colors["purple"])
+colors["red"] = 2
+colors["blue"] = 1
+print(colors)
 
 #Challenge - All the Pets
-#This challenge was not completed.
+pets = {
+    "fish" : 30,
+    "dogs" : 2,
+    "chickens" : 5,
+    "cats" : 2,
+    "bunnies" : 1
+}
+pets["fish"] = 20
+pets["bunnies"] = 7
+print("Because 10 fish died, and the bunny had 6 babies, you now have " + str(pets["fish"]) + " and " + str(pets["bunnies"]) + " at your house.")
+print(pets)
