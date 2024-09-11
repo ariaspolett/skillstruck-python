@@ -1,9 +1,9 @@
-year = int(input("enter a year"))
-if year%4 == 0:
-    print(str(year) + " is a leap year")
-elif year%400 == 0 and year%100 == 0:
-    print(str(year) + " is a leap year")
-elif year%100 == 0 and year%400 == 1: 
-    print(str(year) + " is not a leap year")
-else:
-    print(str(year) + " is not a leap year")
+dinosaur = {}
+new_dino = input("What dino do you want to add? ")
+while new_dino != "triceratops":
+    dino_height = int(input("How tall is your dinosaur? "))
+    dinosaur[new_dino] = dino_height
+    new_dino = input("What dino do you want to add? ")
+dino_height = int(input("How tall is your dinosaur? "))
+dinosaur[new_dino] = dino_height
+print(dinosaur)
