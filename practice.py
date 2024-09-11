@@ -1,5 +1,2 @@
-n = int(input("How many keys in dictionary?"))
-dictionary = {}
-for i in range(n):
-    dictionary[i] = i * i
-print(dictionary)
+candies = (3, 5, 7, 8, 10, 2, 50, 4, 29, 14)
+print(candies[-4:-1])
