@@ -29,7 +29,10 @@ trees.pop(remove)
 print(trees)
 
 #Challenge - Goals 
-#This challenge was not completed.
+goals = { "piano" : 5, "run" : 3, "paint" : 2, "serve" : 7, "homework" : 7}
+remove = input("enter the goal you wish to remove")
+goals.pop(remove)
+print(goals)
 
 #Challenge - Dinosaurs 
 #This challenge was not completed.
