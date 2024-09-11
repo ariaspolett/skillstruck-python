@@ -1,9 +1,5 @@
-dinosaur = {}
-new_dino = input("What dino do you want to add? ")
-while new_dino != "triceratops":
-    dino_height = int(input("How tall is your dinosaur? "))
-    dinosaur[new_dino] = dino_height
-    new_dino = input("What dino do you want to add? ")
-dino_height = int(input("How tall is your dinosaur? "))
-dinosaur[new_dino] = dino_height
-print(dinosaur)
+my_list = [int(n) for n in input().split()]
+
+for i in range(0, len(my_list) - 1, 2):
+	my_list[i], my_list[i +1] = my_list[i + 1], my_list[i]
+print(my_list)
