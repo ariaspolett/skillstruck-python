@@ -40,7 +40,18 @@ if "Friday" in work:
 #This challenge was not completed.
 
 #Challenge - Fruit Shopping List
-#This challenge was not completed.
+shopping = {
+}
+apples = int(input("enter the number you need of this fruit"))
+bananas = int(input("enter the number you need of this fruit"))
+strawberries = int(input("enter the number you need of this fruit"))
+if apples > 5 and bananas > 7 and strawberries > 3:
+    shopping["apples"] = 5
+    shopping["bananas"] = 7
+    shopping["strawberries"] = 3
+    print(shopping)
+else:
+    " "
 
 #Challenge - Permission Slips
 #This challenge was not completed.
