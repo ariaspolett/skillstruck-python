@@ -17,12 +17,40 @@ for x in group.values():
 print(total)
 
 #Challenge - Add it All Together
-
+first = int(input("Pick a first number"))
+second = int(input("Pick a second number"))			
+group = {
+	3 : 10,
+	5 : 3,
+	10 : 6,
+	4 : 30,
+	first : second
+}
+total = 0
+for x,y in group.items():
+	total = total + (x * y)
+print(total)
 
 #Challenge - Boxes
-
+num = int(input("enter a number 1-10"))
+group = { "box1" : 5, "box2" : 2, "box3" : 10, "box4" : 3, "box5" : num }
+total_vol = 0
+for y in group.values():
+    volume = 25*y
+    total_vol = total_vol + volume
+print(total_vol)
 
 #Challenge - Shoes
-
+name = input("enter a name")
+shoes = int(input("enter a number"))
+group = {
+    "Sally" : 10,
+    "Cameron" : 3, 
+    "Spencer" : 6, 
+    name : shoes
+}
+for x,y in group.items():
+    print(str(x) + " has " + str(y) + " pairs of shoes.")
 
 #Challenge - Family Banquet
+#This challenge was not completed.
