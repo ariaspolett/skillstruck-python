@@ -1,2 +1,1 @@
-reading = open("speech.txt", "r")
-print(reading.read())
+money = open("reading-parts-of-a-file.txt","r")
