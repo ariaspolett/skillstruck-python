@@ -1,5 +1,7 @@
-response = input("Enter a a line you want to add to the text file.")
-files = open("report.txt", "a")
-report.write(response)
-files = open("report.txt", "r")
-print(report.read())
+answer = input("what do you want to say?")
+
+files = open("report.txt", "w")
+files.write(answer)
+
+files = open("report.txt", "w")
+print(files.read())
