@@ -1,7 +1,5 @@
-answer = input("what do you want to say?")
-
-files = open("report.txt", "w")
-files.write(answer)
-
-files = open("report.txt", "w")
-print(files.read())
+files = open("reading-parts-of-a-file.txt", "r")
+data = files.read()
+words = data.split()
+print(len(words))
+files.close()
