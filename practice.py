@@ -1,1 +1,1 @@
-nexxt
+lists = ["money", "family", "hate", "marker", "crayon"
