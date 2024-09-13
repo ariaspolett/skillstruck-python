@@ -1,5 +1,1 @@
-files = open("reading-parts-of-a-file.txt", "r")
-data = files.read()
-words = data.split()
-print(len(words))
-files.close()
+nextt
