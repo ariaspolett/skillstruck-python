@@ -18,12 +18,13 @@ total = add(list_of_nums)
 print(total)
 
 #Challenge - Fibonacci
-#THE CODE BELOW DOES NOT WORK, FIX SOON
-fibonacci = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-num = int(input("enter a number"))
+final = []
 def numbers(num):
-    if num <= 10:
-        print(fibonacci[0:num])
+    if num <= 1:
+        return num
     else:
-        print(' ')
-numbers(num)
+        return(numbers(num-1) + numbers(num-2))
+length = int(input("enter a number"))
+for i in range(length):
+    final.append(numbers(i))
+print(final)
