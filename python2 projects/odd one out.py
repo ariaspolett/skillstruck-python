@@ -1,20 +1,18 @@
-#CODE IS STILL NOT CORRECT 
-words = input().split()
-letter_count = []
+input_words = input("Enter a list of words separated by spaces: ")
+
+words = input_words.split()
+
+starting_letter_count = {}
+
 for word in words:
-	if word[0] not in letter_count:
-		letter_count.append(word[0])
-		letter_count.append(1)
-	else:
-		letter_count[letter_count.index(word[0])+1] += 1
+    starting_letter = word[0].lower()  
+    if starting_letter in starting_letter_count:
+        starting_letter_count[starting_letter] += 1
+    else:
+        starting_letter_count[starting_letter] = 1
 
-max_count = 0 
-most_common_letter = ""
-for i in range(0, len(letter_count), 2):
-    if letter_count[i+1] > max_count:
-        max_count = letter_count[i + 1]
-        most_common_letter = letter_count[i]
+most_common_letter = max(starting_letter_count, key=starting_letter_count.get)
 
-common_words = [word for word in words if word.startswith(most_common_letter)]
+result_words = [word for word in words if word.startswith(most_common_letter)]
 
-print(common_words)
+print(' '.join(result_words))
