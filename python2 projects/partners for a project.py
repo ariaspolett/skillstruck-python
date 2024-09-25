@@ -1,12 +1,14 @@
-#THIS IS NOT CORRECT, STILL WORKING ON IT!!!
 def assign_partner(students):
     students.sort()
-    students.reverse()
     groups = []
-    for x in range(len(students)//2):
-        pair = (students[x], students[-(x + 1)])
+    n = len(students)
+    for x in range(n//2):
+        pair = (students[x], students[n - 1 - x])
         groups.append(pair)
-    print(groups)
+    if n % 2 == 1:
+        middle_name = sorted_names[n // 2]
+        groups.append((middle_name,))
+    return groups
 students = input("Enter the student names: ").split()
-assign_partner(students)
-#Percy Nico Jason Leo Will Grover 
+pairs = assign_partner(students)
+print(pairs)
